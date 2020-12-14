@@ -14,4 +14,4 @@ create_routes_bicycles(app)
 create_routes_login(app)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
