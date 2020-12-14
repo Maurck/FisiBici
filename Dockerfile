@@ -10,6 +10,4 @@ COPY [".", "/usr/src/"]
 
 EXPOSE 5000
 
-ENTRYPOINT [ "python" ]
-
 CMD ["python", "./Backend/app.py"]
